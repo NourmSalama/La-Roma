@@ -17,6 +17,7 @@
     </div>
 
 
+
     <div class="justify-content-center mt-5 row">
         @foreach($products as $product)
             <form action="{{ route('order.store') }}" method="post">
